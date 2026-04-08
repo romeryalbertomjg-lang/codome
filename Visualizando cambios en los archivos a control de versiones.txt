@@ -1,0 +1,59 @@
+
++
++Romery@ralberto MINGW64 /c/Git (main)
++$ git status
++On branch main
++Your branch is up to date with 'origin/main'.
++
++Changes not staged for commit:
++  (use "git add <file>..." to update what will be committed)
++  (use "git restore <file>..." to discard changes in working directory)
++        modified:   codome/Prueba de Git.txt
++
++Untracked files:
++  (use "git add <file>..." to include in what will be committed)
++        Agregando archivo a control de versiones.txt
++
++no changes added to commit (use "git add" and/or "git commit -a")
++
++Romery@ralberto MINGW64 /c/Git (main)
++$ git add .
++
++Romery@ralberto MINGW64 /c/Git (main)
++$ git commit -m version2
++[main 6135061] version2
++ 2 files changed, 63 insertions(+), 1 deletion(-)
++ create mode 100644 Agregando archivo a control de versiones.txt
++
++Romery@ralberto MINGW64 /c/Git (main)
++$ git push
++Enumerating objects: 8, done.
++Counting objects: 100% (8/8), done.
++Delta compression using up to 8 threads
++Compressing objects: 100% (4/4), done.
++Writing objects: 100% (5/5), 1012 bytes | 1012.00 KiB/s, done.
++Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
++remote: Resolving deltas: 100% (1/1), completed with 1 local object.
++To https://github.com/romeryalbertomjg-lang/codome.git
++   0b828ed..6135061  main -> main
++
++Romery@ralberto MINGW64 /c/Git (main)
++$
+
+Romery@ralberto MINGW64 /c/Git (main)
+$ git log --oneline -- Prueba de Git.txt
+
+Romery@ralberto MINGW64 /c/Git (main)
+$ git restore "Prueba de Git.txt)
+> ^C
+
+Romery@ralberto MINGW64 /c/Git (main)
+$ git restore "Prueba de Git.txt"
+error: pathspec 'Prueba de Git.txt' did not match any file(s) known to git
+
+Romery@ralberto MINGW64 /c/Git (main)
+$ git show HEAD:"Prueba de Git.txt"
+fatal: path 'Prueba de Git.txt' does not exist in 'HEAD'
+
+Romery@ralberto MINGW64 /c/Git (main)
+$
