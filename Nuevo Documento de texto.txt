@@ -1,0 +1,21 @@
+Flujo de inicialización repositorio de Git
+
+$ cd c:
+
+$ cd "C:\Git"
+
+Romery@ralberto MINGW64 /c/Git
+$ git config --global user.name "codome"
+
+Romery@ralberto MINGW64 /c/Git
+$ ^C
+
+Romery@ralberto MINGW64 /c/Git
+$ git config --global user.email "romeryalbertomjg@gmail.com"
+
+Romery@ralberto MINGW64 /c/Git
+$ ^C
+
+Romery@ralberto MINGW64 /c/Git
+$ git init
+Initialized empty Git repository in C:/Git/.git/

@@ -1,0 +1,56 @@
+
+Romery@ralberto MINGW64 ~
+$ dir
+AppData                                 Entorno\ de\ red       NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TM.blf                                       Untitled.ipynb
+Configuración\ local                    Favorites              NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000001.regtrans-ms  Untitled1.ipynb
+Contacts                                GameMakerProjects      NTUSER.DAT{2ad838bc-efea-11ee-a54d-000d3a94eaa1}.TMContainer00000000000000000002.regtrans-ms  Videos
+Cookies                                 Impresoras             OneDrive                                                                                      Zotero
+Datos\ de\ programa                     Intel                  Pictures                                                                                      anaconda3
+Desktop                                 IntelGraphicsProfiles  Plantillas                                                                                    ntuser.dat.LOG1
+Documents                               Links                  Reciente                                                                                      ntuser.dat.LOG2
+Downloads                               Menú\ Inicio           Saved\ Games                                                                                  ntuser.ini
+Ejercicio1_TiposVariables.ipynb         Mis\ documentos        Searches                                                                                      pseint
+Ejercicio2_OperadoresAritmeticos.ipynb  Music                  SendTo                                                                                        source
+Ejercicio3_Listas.ipynb                 NTUSER.DAT             Tarea1_TiposVariables.ipynb                                                                   wekafiles
+
+Romery@ralberto MINGW64 ~
+$ cd c
+bash: cd: c: No such file or directory
+
+Romery@ralberto MINGW64 ~
+$ cd c:
+
+Romery@ralberto MINGW64 /c
+$ dir
+$Recycle.Bin       64a4b6cdc58767c37b6dd73598  DumpStack.log      Log                    ProgramData      System\ Volume\ Information   inetpub                       swapfile.sys
+00-Python          Archivos\ de\ programa      DumpStack.log.tmp  Nueva\ carpeta         Python\ install  Users                         instalar                      system.sav
+00-SUPER-ROSE      Autodesk                    Git                PerfLogs               Recovery         Windows                       logUploaderSettings.ini
+01-UASD-Directora  Config.Msi                  Instalador         Program\ Files         SQL2022          bd9b0d9f07938ad531ef6ec3c5b8  logUploaderSettings_temp.ini
+02-Biblia          Documents\ and\ Settings    Intel              Program\ Files\ (x86)  SWSetup          hiberfil.sys                  pagefile.sys
+
+Romery@ralberto MINGW64 /c
+$ cd Git:
+bash: cd: Git:: No such file or directory
+
+Romery@ralberto MINGW64 /c
+$ cd "C:\Git"
+
+Romery@ralberto MINGW64 /c/Git
+$ dir
+codome  dss
+
+Romery@ralberto MINGW64 /c/Git
+$ git config --global user.name "codome"
+
+Romery@ralberto MINGW64 /c/Git
+$ ^C
+
+Romery@ralberto MINGW64 /c/Git
+$ git config --global user.email "romeryalbertomjg@gmail.com"
+
+Romery@ralberto MINGW64 /c/Git
+$
+$ git init
+Initialized empty Git repository in C:/Git/.git/
+
+Romery@ralberto MINGW64 /c/Git (master)
